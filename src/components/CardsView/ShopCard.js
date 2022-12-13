@@ -2,7 +2,7 @@ import React from 'react';
 import './cards.css';
 
 function ShopCard({card, key}) {
-  console.log('ShopCard ');
+ // console.log('ShopCard ');
   return (
     <div className='shopCard'>
       <h2 className='heading'>{card.name}</h2>
